@@ -20,6 +20,7 @@ Once the initial problem is well-defined, explored, and cracked we need to think
 
 Adaptability is one of the harder system characteristics to measure, much less get right. How do I know if this system can handle future change gracefully? How do I know if future implementation teams will have a straightforward answer on "where should I make this change?" Answering these questions well is almost impossible unless you have a good idea about what that future change might look like. Instinct, patterns, and experience go a long way to helping with this, but if we had a way to understand _likely_ change (or volitility), we can design a system in such a way that it encapsultes that volitility, reducing the blast radius of change to a specific, well-defined, and well-known subset of the system.
 
+https://www.hakantuncer.com/2015/06/28/zen-of-architecture/ - Volitility-Based Decomposition
 https://medium.com/@hurlbert/architect-the-business-not-the-requirements-71c6a643ec2f
 
 ## The RAT
