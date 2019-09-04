@@ -18,6 +18,8 @@ One of my favourite parts of being an architect for [OST](https://www.ostusa.com
 
 Once the initial problem is well-defined, explored, and cracked we need to think about the second (supporting) system. That is, the wider environment in which the direct solution lives, and the people and processes that will support it. This quickly raises questions about "ility"s if they haven't already been addressed: scalability, adaptability, maintainability, observability, cost-efficiencility(!), securitility(!), etc. In some cases asking those questions can cause a revisit to the original solution until one arrives at an architectural vision and approach that solves for the necessary outcomes.
 
+### Adaptability Is Hard
+
 Adaptability is one of the harder system characteristics to measure, much less get right, since its tied directly one's ability to predict change. How do I know if this system can handle future change gracefully? How do I know if future implementation teams will have a straightforward answer on "where should I make this change?" Answering these questions well is almost impossible unless you have a good idea about what that future change might look like. Instinct, patterns, and experience go a long way to helping with this, but if we had a way to understand _likely_ change (or volitility), we can design a system in such a way that it encapsultes that volitility, reducing the blast radius of change to a specific, well-defined, and well-known subset of the system. [Juval Lowey](http://www.idesign.net/About) describes this as volitility-based decomposition. Hakan Tuncer also [describes this method](https://www.hakantuncer.com/2015/06/28/zen-of-architecture/) as a useful one for staying adaptable.
 
 ## The RAT
