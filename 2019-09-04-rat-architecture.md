@@ -3,10 +3,10 @@
 
 Consider how RAT can inform architectural patterns.
 
- 1. Some characteristics of good architecture
- 2. What is a RAT
- 3. How a RAT can inform volitility
- 4. Participate
+ 1. [Intro](#intro)
+ 2. [Some characteristics of good architecture](#architecting)
+ 3. [The RAT](#the-rat)
+ 4. [Participate](#participate)
 
 ## Intro
 
