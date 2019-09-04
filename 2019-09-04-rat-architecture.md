@@ -28,7 +28,9 @@ The RAT (riskiest assumption test) is a tool used to ... test ... your riskiest 
 
 Design teams take these questions and bring them to the field, testing lightweight prototypes with real customers and stakeholders, evolving the definition of the product to fit their findings. Turns out, customers don't actually need x, but they would love help solving y!
 
-The fast iteration and evolution of a product during this phase can give an observant architect a much more concrete idea about what areas of a product are ripe for volatility. For example, after showing a dashboard prototype to several customers, a design team may realize that the value they're assuming customers will place on particular set of metrics for their device fleet isn't going to hold, and they actually need to track something else, or maybe surface those metrics in an entirely different way.
+### Observe Iteration to Predict
+
+The fast iteration and evolution of a product during this phase can give an observant architect a much more concrete idea about what areas of a product are ripe for volatility in the future. For example, after showing a dashboard prototype to several customers, a design team may realize that the value they're assuming customers will place on particular set of metrics for their device fleet isn't going to hold, and they actually need to track something else, or maybe surface those metrics in an entirely different way.
 
 That's a **huge** hint to the architect that the individual measurements being collected by a given field sensor will likely continue to be tuned to fit other use cases or evolving customer needs over the lifetime of the solution. The solution should therefore be architected to support adaptability in this area, and ecapsulate the expected volitility as much as possible. 
 
