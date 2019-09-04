@@ -5,8 +5,8 @@ Consider how RAT can inform architectural patterns.
 
  1. Some characteristics of good architecture
  2. What is a RAT
- 3. How can RAT inform architecture
- 4. Stay in the room / engaged
+ 3. How a RAT can inform volitility
+ 4. Participate
 
 ## Intro
 
@@ -32,6 +32,6 @@ The fast iteration and evolution of a product during this phase can give an obse
 
 That's a **huge** hint to the architect that the individual measurements being collected by a given field sensor will likely continue to be tuned to fit other use cases or evolving customer needs over the lifetime of the solution. The solution should therefore be architected to support adaptability in this area, and ecapsulate the expected volitility as much as possible. 
 
-## Wrap Up
+## Participate
 
 Granted, there's lots of good reasons for an architect to be involved in early product discussions. From clearly understanding business objectives, to getting a better sense of non-functional requirements, and many others. Paying attention during RATs in particular gives an architect insight into how product teams and business owners have defined their product, but more helpfully how they might *change* the definition of their product to serve their customers.
