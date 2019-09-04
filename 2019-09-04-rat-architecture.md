@@ -4,7 +4,7 @@
 Consider how RAT can inform architectural patterns.
 
  1. [Intro](#intro)
- 2. [Some characteristics of good architecture](#architecting)
+ 2. [The Work of Architecting](#architecting)
  3. [The RAT](#the-rat)
  4. [Participate](#participate)
 
@@ -12,7 +12,7 @@ Consider how RAT can inform architectural patterns.
 
 I was recently listening to the OST pocast (10,000 feet) - an episode where Jim VanderMey and Andrew Powell [discuss the Riskiest Assumption Test](https://www.ostusa.com/podcast_post/13/). It struck me that the effort invested in RATs and their related iterations can be valuable not just to product owners as they solidify the vision for their product, but also to the architect responsible for bringing that product vision to life.
 
-## Architecting
+## The Work of Architecting
 
 One of my favourite parts of being an architect for [OST](https://www.ostusa.com/expertise/connected-products/) is when I get a chance to tackle a fresh problem from a technical perspective. There's a lot of aspects that go into a solid architecture - but the technical implementation details strike just the right note for me. As an example, since I focus a lot of the IoT and Connected Products space, I'm commonly challenged with data ingest and messaging problems at scale. How do you securely ingest gigs of data from field sensors over sometimes-reliable uplinks, reacting to some of those messages in near-real-time while funnelling the rest of them off into archives, backups, and analytics processes? Fascinating stuff. 
 
